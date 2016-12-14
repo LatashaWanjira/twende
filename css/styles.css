@@ -1,0 +1,36 @@
+#header {
+    background-image: url(../img/traffic.jpg);
+    /*opacity: rgb(128, 0, 32);*/
+    background-size: cover;
+    padding: 280px;
+    color: white;
+    font-size: 200px;
+    text-align: center;
+}
+
+.overlay {
+    background-color: #800020;
+}
+
+.nav {
+    padding: 10px;
+    font-size: 30px;
+    color: black;
+}
+
+#signUp {
+    background-color: #C0C0C0;
+    color: white;
+}
+
+.cbd, .ngongRd, .utawala {
+    padding: 100px;
+}
+
+.ngongRd, .utawala {
+    border-left: 1px solid black;
+}
+
+#footer {
+    text-align: center;
+}

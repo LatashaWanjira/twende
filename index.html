@@ -17,37 +17,76 @@
     <div class="container-fluid">
         <!-- heeader/landing page -->
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 overlay" id="header">
                 <h1>TWENDE</h1>
                 <h3>All about convenience.</h3>
             </div>
         </div>
         <!-- tabs -->
-        <div class="row">
-            <div class="col-md-12">
+        <div class="col-md-12">
+            <div class="row">
                 <ul class="nav nav-tabs nav-justified tab">
-                    <!-- <ul id="nav nav-tab" class="nav"> -->
-                    <li class="active"><a data-toggle="tab" href="#aboutMe">How It Works</a></li>
-                    <li class=""><a data-toggle="tab" href="#work">For Drivers</a></li>
-                    <li class=""><a data-toggle="tab" href="#hobbies">For Passengers</a></li>
+                    <li class="active"><a data-toggle="tab" href="#intro">How It Works</a></li>
+                    <li class=""><a data-toggle="tab" href="#drivers">For Drivers</a></li>
+                    <li class=""><a data-toggle="tab" href="#passenger">For Passengers</a></li>
                 </ul>
             </div>
+            <div class="row">
+                <div class="tab-content col-md-offset-1 col-md-10">
+                    <div role="tabpanel" class="tab-pane" id="intro">
 
-            <div class="tab-content col-md-8">
-                <div role="tabpanel" class="tab-pane" id="about-me">
+
+
+
+                    </div>
+
+                    <div role="tabpanel" class="tab-pane" id="drivers">
+                        <div class="col-md-7">
+                            <br><input type="text" class="form-control" id="inputName" placeholder="Your name"><br>
+                            <!-- </div> -->
+                            <!-- <div class="col-md-5"> -->
+                            <input type="number" class="form-control" id="inputNumber" placeholder="Your number"><br>
+                            <input type="text" class="form-control" id="inputLocation" placeholder="Your location"><br>
+                            <input type="text" class="form-control" id="inputTime" placeholder="Departure time"><br>
+                            <input type="text" class="form-control" id="inputDestination" placeholder="Your destination"><br>
+                            <input type="number" class="form-control" id="inputSpace" placeholder="Space available"><br>
+
+                            <input class="btn btn-default" id="signUp" value="Sign Up">
+
+                        </div>
+                    </div>
+
+                    <div role="tabpanel" class="tab-pane" id="passenger">
+                        <div class="row">
+                            <div class="col-md-4 cbd">
+
+                            </div>
+                            <div class="col-md-4 ngongRd">
+
+                            </div>
+                            <div class="col-md-4 utawala">
+
+                            </div>
+
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
-
         </div>
 
+        <div class="row">
+            <div class="col-md-12" id="footer">
+                <p>
+                    <script type="text/javascript">
+                        document.write(new Date().getFullYear());
+                    </script>
+                    Twende
+                </p>
+            </div>
+        </div>
     </div>
-    <p>
-        <script type="text/javascript">
-            document.write(new Date().getFullYear());
-        </script>
-        Twende
-    </p>
 </body>
 
 </html>
