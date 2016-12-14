@@ -1,21 +1,43 @@
+.content {
+  background-color: #C0C0C0;
+}
+
 #header {
-    background-image: url(../img/traffic.jpg);
-    /*opacity: rgb(128, 0, 32);*/
+    background: linear-gradient( rgba(128, 0, 32, 0.45), rgba(128, 0, 32, 0.45)), url(../img/traffic.jpg);
     background-size: cover;
-    padding: 280px;
+    padding-top: 200px;
+    height: 675px;
     color: white;
-    font-size: 200px;
     text-align: center;
+    font-family: 'Permanent Marker', cursive;
 }
 
-.overlay {
-    background-color: #800020;
+#header h1 {
+    font-size: 200px;
 }
 
-.nav {
+#header h3 {
+    font-size: 50px;
+}
+
+.nav>li>a {
+    margin: 0;
     padding: 10px;
     font-size: 30px;
     color: black;
+    font-family: 'Merriweather', serif;
+}
+
+.active, .nav>li>a {
+    color: #800020;
+}
+
+.nav>li>a:hover {
+    color: white;
+    /*color: #C0C0C0;*/
+    background-color: #800020;
+    padding: 15px;
+    font-size: 35px;
 }
 
 #signUp {
