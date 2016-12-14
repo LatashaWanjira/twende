@@ -1,8 +1,8 @@
 #header {
     background: linear-gradient( rgba(128, 0, 32, 0.45), rgba(128, 0, 32, 0.45)), url(../img/traffic.jpg);
     background-size: cover;
-    padding-top: 200px;
-    height: 675px;
+    padding-top: 75px;
+    height: 475px;
     color: white;
     text-align: center;
     font-family: 'Permanent Marker', cursive;
@@ -31,14 +31,9 @@
 .nav>li>a:hover {
     color: white;
     background-color: #800020;
-    padding: 15px;
-    font-size: 35px;
 }
 
-#signUp {
-    background-color: #C0C0C0;
-    color: white;
-}
+
 
 .cbd, .ngongRd, .utawala {
     padding: 100px;
@@ -48,7 +43,7 @@
     border-left: 1px solid black;
 }
 
-#intro, #drivers, #passengers {
+#intro, #drivers, #passenger {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     color: black;
@@ -59,4 +54,25 @@
 }
 .col-md-7 {
     align-items: center;
+}
+
+.blackdriver {
+    float: right;
+    max-width: 400px; 
+    max-height: 400px;
+    margin: 5%;
+}
+
+.blackdriver2 {
+    float: left;
+    max-width: 400px; 
+    max-height: 400px;
+    margin: 5%;
+}
+
+.blackdriver3 {
+    float: right;
+    max-width: 400px; 
+    max-height: 400px;
+    margin: 4%;
 }
