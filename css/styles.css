@@ -16,6 +16,11 @@
     font-size: 50px;
 }
 
+#header i {
+    color: white;
+    font-size: 50px;
+    padding: 50px;
+}
 .nav>li>a {
     margin: 0;
     padding: 10px;
@@ -31,13 +36,6 @@
 .nav>li>a:hover {
     color: white;
     background-color: #800020;
-    padding: 15px;
-    font-size: 35px;
-}
-
-#signUp {
-    background-color: #C0C0C0;
-    color: white;
 }
 
 .cbd, .ngongRd, .utawala {
@@ -48,7 +46,7 @@
     border-left: 1px solid black;
 }
 
-#intro, #drivers, #passengers {
+#intro, #drivers, #passenger {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     color: black;
