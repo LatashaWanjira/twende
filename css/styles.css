@@ -1,0 +1,103 @@
+#header {
+    background: linear-gradient( rgba(128, 0, 32, 0.45), rgba(128, 0, 32, 0.45)), url(../img/traffic.jpg);
+    background-size: cover;
+    padding-top: 75px;
+    height: 475px;
+    color: white;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#header h1 {
+    font-size: 200px;
+}
+
+#header h3 {
+    font-size: 50px;
+}
+
+.nav>li>a {
+    margin: 0;
+    padding: 10px;
+    font-size: 30px;
+    color: black;
+    font-family: 'Merriweather', serif;
+}
+
+.active,
+.nav>li>a {
+    color: #800020;
+}
+
+.nav>li>a:hover {
+    color: white;
+    background-color: #800020;
+}
+
+.cbd,
+.ngongRd,
+.utawala {
+    padding: 100px;
+}
+/*.float-right{
+    vertical-align: middle;
+}*/
+.ngongRd,
+.utawala {
+    border-left: 1px solid black;
+}
+
+#intro,
+#drivers,
+#passenger {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+#footer {
+    text-align: center;
+}
+
+.col-md-7 {
+    align-items: center;
+}
+
+.blackdriver {
+    float: right;
+    max-width: 400px;
+    max-height: 400px;
+    margin: 5%;
+}
+
+.blackdriver2 {
+    float: left;
+    max-width: 400px;
+    max-height: 400px;
+    margin: 5%;
+    box-shadow: lightcoral;
+}
+
+.blackdriver3 {
+    float: right;
+    max-width: 400px;
+    max-height: 400px;
+    margin: 5%;
+}
+
+.col-md-12 {
+    padding: 3%;
+}
+
+#icons {
+    float: left;
+    display: inline-block;
+    padding: 5%;
+    display: inline;
+}
+
+
+.numerals {
+    padding: 5%;
+    float: left;
+}
