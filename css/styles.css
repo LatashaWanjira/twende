@@ -6,7 +6,10 @@
     color: white;
     text-align: center;
     font-family: 'Permanent Marker', cursive;
-}
+    -webkit-transition: -webkit-transform 0.5s;
+    -moz-transition: -moz-transform 0.5s;
+    -o-transition: -o-transform 0.5s;
+    transition: transform 0.5s;}
 
 #header h1 {
     font-size: 200px;
@@ -16,11 +19,19 @@
     font-size: 50px;
 }
 
-#header h3 :hover {}
+#header h1:hover, #header h3:hover {
+    transform: scale(1.2);
+    -webkit-transition: -webkit-transform 0.5s;
+    -moz-transition: -moz-transform 0.5s;
+    -o-transition: -o-transform 0.5s;
+    transition: transform 0.5s;
+}
 
-#header:hover {
-    filter: blur(3px);
-    visibility: visible;
+#header:after {
+  -webkit-transition: -webkit-transform 0.5s;
+  -moz-transition: -moz-transform 0.5s;
+  -o-transition: -o-transform 0.5s;
+  transition: transform 0.5s;
 }
 
 .nav>li>a {
@@ -64,8 +75,9 @@
 }
 
 .content {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
+
 .blackdriver, .blackdriver2, .blackdriver3 {
     max-width: 400px;
     max-height: 400px;
@@ -74,15 +86,35 @@
 }
 
 #footer {
+    background: linear-gradient( rgba(128, 0, 32, 0.7), rgba(128, 0, 32, 0.7)), url(../img/footer.jpg);
+    background-size: cover;
     text-align: center;
     color: white;
     background-color: #800020;
     padding-top: 20px;
 }
 
-#footer i{
-  font-size: 20px;
+#footer i {
+    font-size: 20px;
 }
+
+#email, {
+    padding: 20px;
+}
+
+#subscription {
+    padding: 5px;
+    background-color: #C0C0C0;
+}
+
+.footnote {
+    background-color: black;
+    margin: 0;
+    padding: 7px;
+    text-align: right;
+}
+
+
 /* Wrapper */
 
 .icon-button {
