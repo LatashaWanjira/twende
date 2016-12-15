@@ -68,11 +68,23 @@
     max-width: 400px; 
     max-height: 400px;
     margin: 5%;
+    box-shadow: lightcoral;
 }
 
 .blackdriver3 {
     float: right;
     max-width: 400px; 
     max-height: 400px;
-    margin: 4%;
+    margin: 5%;
+}
+
+.col-md-12 {
+    padding: 3%;
+}
+
+#icons {
+    float: left;
+    display: inline-block;
+    padding: 5%;
+    display: inline;
 }
