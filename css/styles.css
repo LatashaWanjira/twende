@@ -24,7 +24,8 @@
     font-family: 'Merriweather', serif;
 }
 
-.active, .nav>li>a {
+.active,
+.nav>li>a {
     color: #800020;
 }
 
@@ -33,17 +34,22 @@
     background-color: #800020;
 }
 
-
-
-.cbd, .ngongRd, .utawala {
+.cbd,
+.ngongRd,
+.utawala {
     padding: 100px;
 }
-
-.ngongRd, .utawala {
+/*.float-right{
+    vertical-align: middle;
+}*/
+.ngongRd,
+.utawala {
     border-left: 1px solid black;
 }
 
-#intro, #drivers, #passenger {
+#intro,
+#drivers,
+#passenger {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
     color: black;
@@ -52,20 +58,21 @@
 #footer {
     text-align: center;
 }
+
 .col-md-7 {
     align-items: center;
 }
 
 .blackdriver {
     float: right;
-    max-width: 400px; 
+    max-width: 400px;
     max-height: 400px;
     margin: 5%;
 }
 
 .blackdriver2 {
     float: left;
-    max-width: 400px; 
+    max-width: 400px;
     max-height: 400px;
     margin: 5%;
     box-shadow: lightcoral;
@@ -73,7 +80,7 @@
 
 .blackdriver3 {
     float: right;
-    max-width: 400px; 
+    max-width: 400px;
     max-height: 400px;
     margin: 5%;
 }
@@ -87,4 +94,10 @@
     display: inline-block;
     padding: 5%;
     display: inline;
+}
+
+
+.numerals {
+    padding: 5%;
+    float: left;
 }
