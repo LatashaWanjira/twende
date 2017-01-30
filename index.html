@@ -7,8 +7,14 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+
     <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
 </head>
@@ -17,75 +23,260 @@
     <div class="container-fluid">
         <!-- heeader/landing page -->
         <div class="row">
-            <div class="col-md-12 overlay" id="header">
-                <h1>TWENDE</h1>
-                <h3>All about convenience.</h3>
+            <div class="col-md-12" id="header">
+                <div class="row">
+                    <div class="pop-up-btn">
+                        <button type="button" class="btn" name="">Find a Car</button>
+                    </div>
+                    <div class="pop-up-btn">
+                        <button type="button" class="btn "name="">Driver Sign Up</button>
+                    </div>
+                </div>
+                <div class="title">
+                    <h1>TWENDE</h1>
+                </div>
+                <div class="col-md-offset-3 col-md-6 motto">
+                    <h3>All about convenience</h3>
+                </div>
             </div>
         </div>
-        <!-- tabs -->
-        <div class="col-md-12">
-            <div class="row">
+    </div>
+
+    <!-- tabs -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
                 <ul class="nav nav-tabs nav-justified tab">
                     <li class="active"><a data-toggle="tab" href="#intro">How It Works</a></li>
                     <li class=""><a data-toggle="tab" href="#drivers">For Drivers</a></li>
                     <li class=""><a data-toggle="tab" href="#passenger">For Passengers</a></li>
+
                 </ul>
-            </div>
-            <div class="row">
-                <div class="tab-content col-md-offset-1 col-md-10">
-                    <div role="tabpanel" class="tab-pane" id="intro">
-
-
-
-
-                    </div>
-
-                    <div role="tabpanel" class="tab-pane" id="drivers">
-                        <div class="col-md-7">
-                            <br><input type="text" class="form-control" id="inputName" placeholder="Your name"><br>
-                            <!-- </div> -->
-                            <!-- <div class="col-md-5"> -->
-                            <input type="number" class="form-control" id="inputNumber" placeholder="Your number"><br>
-                            <input type="text" class="form-control" id="inputLocation" placeholder="Your location"><br>
-                            <input type="text" class="form-control" id="inputTime" placeholder="Departure time"><br>
-                            <input type="text" class="form-control" id="inputDestination" placeholder="Your destination"><br>
-                            <input type="number" class="form-control" id="inputSpace" placeholder="Space available"><br>
-
-                            <input class="btn btn-default" id="signUp" value="Sign Up">
-
-                        </div>
-                    </div>
-
-                    <div role="tabpanel" class="tab-pane" id="passenger">
-                        <div class="row">
-                            <div class="col-md-4 cbd">
-
-                            </div>
-                            <div class="col-md-4 ngongRd">
-
-                            </div>
-                            <div class="col-md-4 utawala">
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-
             </div>
         </div>
 
+        <div class="row content">
+            <div class="tab-content col-md-offset-1 col-md-10">
+                <div role="tabpanel" class="tab-pane fade in active" id="intro">
+                    <h1>Don't feel like Driving Today?</h1>
+                    <div class="row">
+                        <div class="col-md-12 intro1">
+                            <div class="col-md-6 col-sm-6 intro-text1">
+                                <p>
+                                    Introducing "Twende", your tailor made solution designed to get you from home to work, school or to your friends without forcing you to use a taxi or public means!. All you need to do is log on to the site and have a look at the drivers in your current
+                                    location who will be plying your route. It's that easy!.
+                                </p>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <img class="blackdriver" src="img/carpool1.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 icons">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <center><img src="img/pointer.png" class="pointer"></center>
+                                    <div class="pointer-text">
+                                        <h2>Decide Where You Need To Go</h2>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <center><img src="img/search.png" class="search"></center>
+                                    <div class="search-text">
+                                        <h2>Search For A Car On That Route</h2>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <center><img src="img/connect.png" class="connect"></center>
+                                    <div class="connect-text">
+                                        <h2>Call Owner & Arrange a Meet up</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 intro2">
+                            <div class="col-md-6">
+                                <img class="blackdriver2" src="img/carpool2.png">
+                            </div>
+                            <div class="col-md-6 intro-text2">
+                                <p>
+                                    Here at <em>Twende</em>, we plan to revolutionize how you travel, regardless of where you're going. We believe there is always someone heading where you plan to, and we want this to be the go-to platform to connect
+                                    the two of you.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="benefits">
+                        <h1>Benefits:</h1>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-4 numeral">
+                                        <img src="img/no1.png" class="numeral1">
+                                        <div class="benefit1">
+                                            <h3>Play Your Part In Reducing The Amount Of Carbon Emmission Filling The Air</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 numeral">
+                                        <img src="img/no2.png" class="numeral2">
+                                        <div class="benefit2">
+                                            <h3>Reduce The Level Of Traffic Congestion On Roads</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 numeral">
+                                        <img src="img/no3.png" class="numeral3">
+                                        <div class="benefit3">
+                                            <h3>Get to Use Private Transport At A Lesser Expense</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="drivers">
+                    <h1>Share your Car for Extra Change!</h1>
+                    <!-- <p>If you don't mind having some extra cash for lunch everyday, or you'd just like to meet some new friends, why not share out your ride and drop off a few guys everyday who are heading somewhere you'll be passing by? It's a great
+                            way to make money everyday and learn more about new people.</p> -->
+                    <div class="row driver-text1">
+                        <div class="col-md-5 money">
+                            <img src="img/icon5.png">
+                            <p> If you won't be using your car for a while, you can choose to rent out your car to someone based on an agreedupon per hour rate with the minimum being 50KES an hour. </p>
+                        </div>
+                        <div class="col-md-2">
+                        </div>
+                        <div class="col-md-5 person">
+                            <img src="img/icon7.png">
+                            <p> Create an account below and you'll have the first 30 days for free to see how valuable our platform can be, and thereafter, send us USD10 a month to maintain your account and introduce more car owners like you to sign up.
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-8">
+                        <h2>Sign Up</h2>
+                        <form id="driver-contact">
+                            <input type="text" class="form-control" id="inputName" placeholder="Your name"><br>
+                            <input type="number" class="form-control" id="inputNumber" placeholder="Your number"><br>
+                            <input type="text" class="form-control" id="inputRoute" placeholder="Your Route"><br>
+                            <!-- <input type="text" class="form-control" id="inputLocation" placeholder="Your location"><br> -->
+                            <input type="text" class="form-control" id="inputTime" placeholder="Departure time"><br>
+                            <!-- <input type="text" class="form-control" id="inputDestination" placeholder="Your destination"><br> -->
+                            <input type="number" min="1" max="10" class="form-control" id="inputSpace" placeholder="Space available"><br>
+                            <div class="sign-up">
+                                <button type="button" class="btn btn-sign-up"name=""> Sign Up</button>
+
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+
+                <div role="tabpanel" class="tab-pane fade" id="passenger">
+                    <h1>Get Started!</h1>
+                    <div class="passenger-text1">
+                        <p>
+                            Use <strong><em>Twende</em></strong> and you'll NEVER have to rely on public transport again!
+                        </p>
+                        <div class="col-md-12 uses">
+                            <h2>Use Twende To Go:</h2>
+                            <div class="col-md-3">
+                                <img src="img/home.png">
+                                <h3>Home</h3>
+                            </div>
+                            <div class="col-md-3">
+                                <img src="img/school.png">
+                                <h3>To School</h3>
+                            </div>
+                            <div class="col-md-3">
+                                <img src="img/work.png">
+                                <h3>To Work</h3>
+                            </div>
+                            <div class="col-md-3">
+                                <img src="img/event.png">
+                                <h3>To an Event</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 passenger-text2">
+                        <p>
+                            Once you find your preferred destination, click on it to reveal the car owners registered in our system. You'll be able to view their name, contact info as well as their car capacity and from there, you're free to call them up and arrange a meet up.
+                        </p>
+                        <!-- <p>Before you start riding regularly with a chosen car owner, make sure you take note of their car number plate and send it and their contact to someone you know. This is just as a precaution.
+                        </p> -->
+                        <p>
+                            Search your route below to see what time one of our registered car owners will be heading to your preferred destination.
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 ngongRd">
+                            <h3>Ngong Road <i class="icon ion-chevron-right"></i> CBD</h3>
+                        </div>
+                        <div class="col-md-1">
+                        </div>
+                        <div class="col-md-3 lavington">
+                            <h3>Lavington  <i class="icon ion-chevron-right"></i>  CBD</h3>
+                        </div>
+                        <div class="col-md-1">
+                        </div>
+                        <div class="col-md-3 runda">
+                            <h3>Runda  <i class="icon ion-chevron-right"></i>  CBD</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="row">
             <div class="col-md-12" id="footer">
+                <div class="col-md-offset-1 col-md-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4>Subscribe to our newsletter:</h4>
+                        </div>
+                        <div class="col-md 12 subscription-form">
+
+                            <input type="text" class="form-control" id="email" placeholder="Your email address">
+                        </div>
+                        <div class="col-md-12">
+                            <input type="button" id="subscription" value="Subscribe">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-5">
+                    <h4>
+                        Want to get in touch with us?
+                      </h4>
+                    <p>
+                        <i class="icon ion-android-call"></i> : 0200 3374 82<br>
+                        <i class="icon ion-iphone"></i> : +254 738 838 764<br>
+                        <i class="icon ion-email"></i> : twende@gmail.com
+                    </p>
+                </div>
+                <div class="row social-media">
+
+                    <a href="http://twitter.com" class="icon-button twitter"><i class="icon ion-social-twitter"></i><span></span></a>
+                    <a href="http://facebook.com" class="icon-button facebook"><i class="icon ion-social-facebook"></i><span></span></a>
+                    <a href="http://plus.google.com" class="icon-button google-plus"><i class="icon ion-social-googleplus"></i><span></span></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 footnote">
                 <p>
+                    Twende
                     <script type="text/javascript">
                         document.write(new Date().getFullYear());
                     </script>
-                    Twende
                 </p>
             </div>
         </div>
+    </div>
+    </div>
+    </div>
     </div>
 </body>
 
